@@ -12,7 +12,7 @@ gem "rake", ">= 11.1"
 gem "capybara", ">= 2.15"
 
 gem "rack-cache", "~> 1.2"
-gem "sass-rails"
+gem "sass-rails", ">= 5.0.8"
 gem "turbolinks", "~> 5"
 gem "webpacker", github: "rails/webpacker", require: ENV["SKIP_REQUIRE_WEBPACKER"] != "true"
 # require: false so bcrypt is loaded only when has_secure_password is used.
